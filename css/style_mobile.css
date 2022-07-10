@@ -1,0 +1,116 @@
+@media (max-width: 992px) {
+  .container {
+    margin: 0 5%;
+  }
+
+  input[type=button] {
+    padding: 1rem;
+  }
+
+  .text_main {
+    padding: 1rem;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+  }
+
+  .hello h1 {
+    margin-top: 2rem;
+    font-size: 4.5rem;
+  }
+
+  .hello p, span {
+    font-size: 1.5rem;
+  }
+
+  .request h2 {
+    font-size: 2rem;
+  }
+
+  input[type=text],
+  input[type=email],
+  input[type=tel],
+  .category {
+    padding: 0.8rem;
+  }
+
+  .main {
+    padding: 0;
+  }
+
+  .hello p, span {
+    font-size: 1.7rem;
+  }
+
+  .rewiews_item {
+    display: flex;
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .rewiews_item span.name {
+    text-align: left;
+  }
+
+  .text {
+    padding: 1.5rem;
+    width: 75%;
+  }
+
+  .fleet_text {
+    margin-top: 4rem;
+  }
+
+  .request_flex {
+    flex-direction: column;
+  }
+
+  .request_form {
+    width: 100%;
+  }
+
+  .map_footer {
+    margin-top: 5rem;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .hello h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .hello p, span {
+    display: block;
+    text-align: center;
+  }
+
+  .request h2 {
+    font-size: 2rem;
+  }
+
+  .grid_advantages {
+    grid-template: none;
+  }
+
+  .grid_item {
+    text-align: center;
+  }
+
+  .rewiews_item {
+    flex-direction: column;
+  }
+
+  .text {
+    width: 100%;
+    padding: 0;
+  }
+
+  .request_bottom .request_form {
+    margin: 0 auto;
+  }
+}

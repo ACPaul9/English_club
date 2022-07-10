@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Английский клуб</title>
+  <link rel="shortcut icon" href="img/unnamed.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fullhd.css">
+  <link rel="stylesheet" href="css/burger.css">
+  <link rel="stylesheet" href="css/style_mobile.css">
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+  <script src="js/parallax.min.js"></script>
+</head>
+<body>
+<header class="header">
+  <div class="logo">
+    <img class="logo_img" src="img/unnamed.png" alt="Логотип школы английского">
+    <span class="head_text">English club</span>
+  </div>
+  <nav class="nav">
+    <input id="menu__toggle" type="checkbox"/>
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+    <ul class="menu__box">
+      <li><a class="link_text" href="#main">Главная</a></li>
+      <li><a class="link_text" href="#fleet">Преподаватели</a></li>
+      <li><a class="link_text" href="#advantage">Преимущества</a></li>
+      <li><a class="link_text" href="#reviews">Отзывы</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="back_image">
+  <div class="container">
+    <main id="main" class="main">
+      <div class="hello">
+        <div class="text_main">
+          <h1>English club</h1>
+          <p>Обучение английскому языку</p>
+        </div>
+      </div>
+      <div class="request">
+        <h2>Начните вместе с нами!</h2>
+        <form class="request_form" action="#" name="request" method="post">
+          <input type="text" name="name" id="name" placeholder="Имя">
+          <input type="tel" name="phone" placeholder="Телефон" id="phone">
+          <input type="email" name="email" placeholder="E-mail" id="email">
+          <select class="category">
+            <option selected disabled>Ваш уровень</option>
+            <option value="А1 beginner">А1 beginner</option>
+            <option value="А2 elementary">А2 elementary</option>
+            <option value="B1 intermediate">B1 intermediate</option>
+            <option value="B2 upper intermediate">B2 upper intermediate</option>
+          </select>
+          <input type="button" value="Отправить">
+        </form>
+      </div>
+    </main>
+  </div>
+</div>
+<div id="fleet" class="fleet" data-parallax="scroll"
+     data-image-src="img/study.jpg">
+  <div class="container">
+    <div class="fleet_text">
+      <h3>Наши преподаватели</h3>
+    </div>
+    <div class="fleet_box">
+      <div class="fleet_item">
+        <div class="photo">
+          <img class="fleet_img" src="img/victor.jpg" alt="Victor">
+        </div>
+        <p>Виктор</p>
+      </div>
+      <div class="fleet_item">
+        <div class="photo">
+          <img class="fleet_img" src="img/anna.jpg" alt="Anna">
+        </div>
+        <p>Анна</p>
+      </div>
+      <div class="fleet_item">
+        <div class="photo">
+          <img class="fleet_img" src="img/Kseniya.jpg" alt="Kseniya">
+        </div>
+        <p>Ксения</p>
+      </div>
+      <div class="fleet_item">
+        <div class="photo">
+          <img class="fleet_img" src="img/Tatiana.jpg" alt="Tania">
+        </div>
+        <p>Татьяна</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="advantage" class="advantages">
+  <div class="container">
+    <h3>Наши преимущества</h3>
+    <div class="grid_advantages">
+      <div class="grid_item">
+        <div class="grid_pic">
+          <img src="img/help.png" alt="help">
+          <p>Опыт и репутация</p>
+        </div>
+      </div>
+      <div class="grid_item">
+        <div class="grid_pic">
+          <img src="img/three.png" alt="three">
+          <p>Удобное время и место занятий</p>
+        </div>
+      </div>
+      <div class="grid_item">
+        <div class="grid_pic">
+          <img src="img/design.png" alt="design">
+          <p>Профессиональные преподаватели из англоязычных стран</p>
+        </div>
+      </div>
+      <div class="grid_item">
+        <div class="grid_pic">
+          <img src="img/modern.png" alt="modern">
+          <p>Программа обучения с возможностью изучения и повторения теоретического блока дистанционно</p>
+        </div>
+      </div>
+      <div class="grid_item">
+        <div class="grid_pic">
+          <img src="img/car.png" alt="car">
+          <p>Три школы на выбор. Можете выбрать наиболее удобную для вас локацию</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="reviews" class="reviews">
+  <div class="container">
+    <h3>Отзывы</h3>
+    <div class="reviews_flex">
+      <div class="rewiews_item">
+        <div class="photo_people">
+          <img class="people" src="img/people-1.jpg" alt="1 rewiew">
+        </div>
+        <div class="text">
+          <span class="name">Татьяна</span>
+          <p>Очень давно хотела продвинуть язык, и выбирала школу рядом с офисом. И как же повезло попасть в English club!
+            Расположение школы очень удобное, приветливые менеджеры, которые все доступно объясняют и всегда готовы помочь разобраться.
+            Преподаватели все очень крутые, креативные, вовлекающие в занятия, вдохновляющие.
+            Также по программе у нас включены занятия с носителями языка. Что очень здорово прокачивает язык! Довольна на все 100%.
+          </p>
+        </div>
+      </div>
+      <div class="rewiews_item">
+        <div class="photo_people">
+          <img class="people" src="img/people-2.jpg" alt="2 rewiew">
+        </div>
+        <div class="text">
+          <span class="name">Андрей</span>
+          <p>Я очень доволен программой обучения, у меня расширился словарный запас, лучше стал воспринимать речь на слух, свободнее разговариваю.</p>
+        </div>
+      </div>
+      <div class="rewiews_item">
+        <div class="photo_people">
+          <img class="people" src="img/people-3.jpg" alt="3 rewiew">
+        </div>
+        <div class="text">
+          <span class="name">Анастасия</span>
+          <p>Преподаватель нашел индивидуальный подход к каждому.
+            Уделяет внимание тонкостям и нюансам в английском языке и очень доступно объясняет. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="request_bottom">
+    <div class="container">
+      <div class="request_flex">
+        <div class="request_footer">
+          <h2>Запишитесь на пробный урок</h2>
+          <form class="request_form" action="#" method="post">
+            <input type="text" placeholder="Имя">
+            <input type="tel" name="" placeholder="Телефон">
+            <input type="email" name="" placeholder="E-mail">
+            <select class="category">
+              <option selected disabled>Ваш уровень</option>
+              <option value="А1 beginner">А1 beginner</option>
+              <option value="А2 elementary">А2 elementary</option>
+              <option value="B1 intermediate">B1 intermediate</option>
+              <option value="B2 upper intermediate">B2 upper intermediate</option>
+            </select>
+            <input type="button" value="Отправить">
+          </form>
+        </div>
+        <div class="map_footer">
+          <script type="text/javascript" charset="utf-8" async
+                  src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A842e4d3caa660031faf9f17529e450470a6f130b21fbdd1ed501783c82fbec70&amp;width=1400&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+      </div>
+      <div class="footer_copyright">
+        <p>"Школа английского языка" 2022</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
